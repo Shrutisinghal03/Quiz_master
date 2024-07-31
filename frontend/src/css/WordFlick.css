@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+ .wordflick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+color: #4EF3FC;
+color: linear-gradient(135deg, #4EF3FC, #107475);
+
+    font: 700 normal 2.5em 'tahoma';
+   /* // text-shadow: 5px 2px #bfc2c4, 2px 4px #e2e8ee, 3px 5px #e9ebee; */
+  }
+  
+  .container {
+    margin: auto;
+  }
+  
+  .word {
+    margin: auto;
+  }
+  

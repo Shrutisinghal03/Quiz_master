@@ -1,0 +1,22 @@
+.landing-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .form-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

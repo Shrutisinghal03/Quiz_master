@@ -1,0 +1,36 @@
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 4rem;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+  margin-bottom: 4rem;
+  height: auto; /* Adjust the height dynamically based on content */
+}
+
+  
+  .card-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-content p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .publish-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .publish-button:hover {
+    background-color: #45a049;
+  }
+  

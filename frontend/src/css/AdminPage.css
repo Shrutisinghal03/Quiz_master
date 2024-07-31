@@ -1,0 +1,54 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures rounded shape */
+    margin-right: 20px; /* Provides spacing between image and form */
+  }
+  
+  .admin-form {
+    width: 100%; /* Adjust width as needed */
+    max-width: 400px; /* Ensures form doesn't exceed a certain width */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

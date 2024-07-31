@@ -1,0 +1,67 @@
+/* AdminList.css */
+
+/* Container for the admin list */
+.admin-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust spacing between admin items */
+    font-weight: 700;
+    margin: 5rem 14rem;
+  }
+
+  
+  /* Individual admin item */
+  .admin-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease; /* Add a subtle hover effect */
+    width: 60rem; /* Make the row wider */
+    height: 60px; /* Reduce the height */
+  }
+  
+  .admin-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Admin avatar */
+  .admin-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5rem;
+    object-fit: cover;
+  }
+  
+  /* Admin details */
+  .admin-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Stack name and email vertically */
+  }
+  
+  .admin-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* View profile button */
+  .view-profile-button {
+    background-color: #007bff;
+    color: #fff;
+    width: 10rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .view-profile-button:hover {
+    background-color: #0056b3;
+  }
+  
